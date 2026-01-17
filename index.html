@@ -2,42 +2,19 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="theme-color" content="#4f46e5" />
   <meta name="description" content="Veritas AI - Detect AI generated content in documents and text." />
   <title>Veritas AI Scanning Hub</title>
   <script src="https://cdn.tailwindcss.com"></script>
+
   <style>
     body {
       margin: 0;
       background-color: #f8fafc;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-    }
-  </style>
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
-
-</html>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>Veritas AI</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    body {
-      margin: 0;
-      background-color: #4f46e5;
-      overflow: hidden;
     }
 
     #splash-screen {
@@ -102,6 +79,8 @@
 </head>
 
 <body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  
   <div id="splash-screen">
     <div class="pulse-logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#4f46e5"
@@ -114,7 +93,7 @@
 
   <div id="root"></div>
 
-  <script type="module" src="src/index.jsx"></script>
+  <script type="module" src="/src/index.jsx"></script>
 
   <script>
     // Simple logic to hide splash once everything is loaded
